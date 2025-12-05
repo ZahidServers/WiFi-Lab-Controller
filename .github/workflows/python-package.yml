@@ -41,7 +41,7 @@ jobs:
       run: |
         if [ -d tests ]; then pytest; else echo "No tests directory found, skipping."; fi
 
-    - name: Build Python package
+    - name: Build Python WiFi-Lab-Controller
       run: |
         python -m build
 
