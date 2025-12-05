@@ -304,7 +304,7 @@ class WifiLabGUI:
             f"ESSID: {essid}"
         )
         if confirm:
-            deauth_attack(interface, bssid, channel)
+            self.deauth_attack(interface, bssid, channel)
         else:
             print("User cancelled network selection.")
     def update_table(self, networks):
@@ -357,7 +357,7 @@ class WifiLabGUI:
         for row in self.tree.get_children():
             self.tree.delete(row)
         messagebox.showinfo("Stopped", "Scan stopped and monitor mode disabled.")
-    def deauth_attack(interface, bssid, channel):
+    def deauth_attack(self, interface, bssid, channel):
         """Perform a deauthentication attack on the selected network."""
         messagebox.showinfo(f"Setting interface to channel {channel}...")
         subprocess.run(["iwconfig", interface, "channel", channel])
