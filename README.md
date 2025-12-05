@@ -51,7 +51,7 @@ Clone your repository:
 ```bash
 git clone https://github.com/ZahidServers/WiFi-Lab-Controller.git
 cd Wifi-Lab-Controller
-cd Wifi-Lab-Controller
+cd wifilab
 ```
 
 Run:
