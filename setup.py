@@ -22,7 +22,7 @@ setup(
     python_requires=">=3.9",
     entry_points={
         "console_scripts": [
-            "wifilab=WiFi-Lab-Controller.app:main"
+            "wifilab=wifilab.app:main"
         ]
     },
 )
