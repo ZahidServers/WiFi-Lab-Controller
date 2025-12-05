@@ -370,6 +370,9 @@ class WifiLabGUI:
 # ---------------------------------------------------------
 # RUN THE APP
 # ---------------------------------------------------------
-root = tk.Tk()
-app = WifiLabGUI(root)
-root.mainloop()
+def main():
+    root = tk.Tk()
+    app = WifiLabGUI(root)
+    root.mainloop()
+if __name__ == "__main__":
+    main()
