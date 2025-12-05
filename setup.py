@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name="wifilab",
     version="1.0.0",
-    py_modules=["app"],
+    packages=find_packages(),
     author="Mohammed Zahid Wadiwale",
     author_email="support@webaon.com",
     description="Wi-Fi Lab Controller: Safe WiFi testing toolkit with scanning, fake AP, DNS redirection.",
