@@ -62,6 +62,77 @@ sudo python3 app.py
 
 (root or sudo required)
 
+## 📥 Installation (Linux / Parrot / Kali / Debian / Ubuntu / Raspberry Pi OS) via PyiPi
+
+### 🔧 Required System Packages
+
+```bash
+sudo apt update
+sudo apt install -y python3 python3-tk aircrack-ng hostapd dnsmasq network-manager xdg-utils
+```
+
+---
+
+## 🐍 Install from PyPI (Recommended)
+
+```bash
+pip install wifilab
+```
+
+### ⚠️ Note for Debian/Kali/Parrot/Raspberry Pi OS
+
+If you see:
+
+```
+error: externally-managed-environment
+```
+
+Use pipx or a virtual environment:
+
+---
+
+### ▶️ Option 1 — Using pipx (Best)
+
+```bash
+sudo apt install pipx
+pipx ensurepath
+pipx install wifilab
+wifilab
+```
+
+---
+
+### ▶️ Option 2 — Using Virtual Environment
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install wifilab
+python -m wifilab
+```
+
+---
+
+### ⚠️ Not Recommended
+
+```bash
+pip install wifilab --break-system-packages
+```
+
+---
+
+## 🚀 Running
+
+```bash
+wifilab
+```
+
+or
+
+```bash
+python -m wifilab
+```
+
 ---
 
 # 🧰 **Features Overview**
@@ -86,7 +157,7 @@ sudo python3 app.py
 ---
 
 ## 🏠 **1. Home Tab**
-
+![Home Tab](https://raw.githubusercontent.com/ZahidServers/WiFi-Lab-Controller/refs/heads/main/Screenshot1.png)
 ### **Mode 1: Safe Disconnect + Fake AP**
 
 * Restarts Wi‑Fi interface
@@ -131,7 +202,7 @@ Restores EVERYTHING to default:
 ---
 
 ## 🌐 **2. Network Tab**
-
+![Network Tab](https://raw.githubusercontent.com/ZahidServers/WiFi-Lab-Controller/refs/heads/main/Screenshot4.png)
 ### **Show Network Interfaces**
 
 Runs:
@@ -151,7 +222,7 @@ iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 ---
 
 ## 🧭 **3. Domain Redirection Tab**
-
+![Domain Tab](https://raw.githubusercontent.com/ZahidServers/WiFi-Lab-Controller/refs/heads/main/Screenshot3.png)
 Used for local DNS experiments.
 
 You can add:
@@ -171,7 +242,7 @@ After adding a rule, dnsmasq restarts automatically.
 ---
 
 ## 📡 **4. Scan Networks (Mode 3 & 4)**
-
+![Scan Tab](https://raw.githubusercontent.com/ZahidServers/WiFi-Lab-Controller/refs/heads/main/Screenshot2.png)
 ### Requirements
 
 Your Wi‑Fi card must support:
@@ -224,7 +295,7 @@ If user clicks **Cancel**:
 ---
 
 ## ℹ️ **5. About Tab**
-
+![About Tab](https://raw.githubusercontent.com/ZahidServers/WiFi-Lab-Controller/refs/heads/main/about.png)
 Contains:
 
 * App description
