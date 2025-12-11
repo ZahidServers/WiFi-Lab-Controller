@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="wifilab",
-    version="1.1.0",
+    version="1.1.1",
     packages=find_packages(),
     author="Mohammed Zahid Wadiwale",
     author_email="support@webaon.com",
