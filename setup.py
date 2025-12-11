@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="wifilab",
-    version="1.0.2",
+    version="1.1.0",
     packages=find_packages(),
     author="Mohammed Zahid Wadiwale",
     author_email="support@webaon.com",
@@ -10,10 +10,11 @@ setup(
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/ZahidServers/WiFi-Lab-Controller",
-    license="GPL-3.0",
+    license="BSD-3-Clause",
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+        "License :: OSI Approved :: BSD License",
+        "License :: OSI Approved :: BSD 3-Clause License",
         "Operating System :: POSIX :: Linux",
         "Topic :: Security",
         "Topic :: System :: Networking",
