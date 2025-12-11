@@ -1,3 +1,9 @@
+# WiFi-Lab-Controller
+
+[![PyPI version](https://img.shields.io/pypi/v/wifilab.svg)](https://pypi.org/project/wifilab/)
+[![Python versions](https://img.shields.io/pypi/pyversions/wifilab.svg)](https://pypi.org/project/wifilab/)
+[![License](https://img.shields.io/pypi/l/wifilab.svg)](https://github.com/ZahidServers/WiFi-Lab-Controller/blob/main/LICENSE)
+[![Tests](https://github.com/ZahidServers/WiFi-Lab-Controller/actions/workflows/python-package.yml/badge.svg)](https://github.com/ZahidServers/WiFi-Lab-Controller/actions)
 
 ---
 
