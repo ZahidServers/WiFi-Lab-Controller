@@ -5,7 +5,7 @@ setup(
     version="1.1.1",
     packages=find_packages(),
     author="Mohammed Zahid Wadiwale",
-    author_email="support@webaon.com",
+    author_email="info@webaon.com",
     description="Wi-Fi Lab Controller: Safe WiFi testing toolkit with scanning, fake AP, DNS redirection.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
