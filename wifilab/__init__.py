@@ -7,7 +7,7 @@ network tools, domain redirection, and scanning features.
 
 from .app import main
 
-__version__ = "1.1.2"
+__version__ = "1.2.0"
 __all__ = ["main", "__version__"]
 
 def run():
