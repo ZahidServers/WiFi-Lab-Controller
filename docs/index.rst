@@ -41,3 +41,12 @@ Contents
    warnings
    contributing
    author
+
+
+API Reference
+-------------
+
+.. automodule:: wifilab
+   :members:
+   :undoc-members:
+   :show-inheritance:
