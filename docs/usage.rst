@@ -15,6 +15,11 @@ This opens the main GUI window with the following tabs:
 Home Tab
 --------
 
+.. image:: https://raw.githubusercontent.com/ZahidServers/WiFi-Lab-Controller/refs/heads/main/Screenshot1.png
+   :alt: WiFi Lab Controller Screenshot
+   :align: center
+   :width: 600px
+
 Tools available:
 
 - Safe Disconnect (disable/enable wlan0)
@@ -25,16 +30,31 @@ Tools available:
 Network Tab
 -----------
 
+.. image:: https://raw.githubusercontent.com/ZahidServers/WiFi-Lab-Controller/refs/heads/main/Screenshot4.png
+   :alt: WiFi Lab Controller Screenshot
+   :align: center
+   :width: 600px
+
 - Show network interfaces (`ip a`)
 - Enable NAT (iptables MASQUERADE)
 
 Domain Redirection
 ------------------
 
+.. image:: https://raw.githubusercontent.com/ZahidServers/WiFi-Lab-Controller/refs/heads/main/Screenshot3.png
+   :alt: WiFi Lab Controller Screenshot
+   :align: center
+   :width: 600px
+
 Allows redirecting specific domains to a chosen IP:Port using dnsmasq rules.
 
 Scan Networks (Mode 3 & 4)
 --------------------------
+
+.. image:: https://raw.githubusercontent.com/ZahidServers/WiFi-Lab-Controller/refs/heads/main/Screenshot2.png
+   :alt: WiFi Lab Controller Screenshot
+   :align: center
+   :width: 600px
 
 Performs controlled wireless scanning using airodump-ng:
 
@@ -52,5 +72,10 @@ Selecting a network offers a **deauth demonstration** (authorized environment on
 
 About Tab
 ---------
+
+.. image:: https://raw.githubusercontent.com/ZahidServers/WiFi-Lab-Controller/refs/heads/main/about.png
+   :alt: WiFi Lab Controller Screenshot
+   :align: center
+   :width: 600px
 
 Shows author information, links, and support options.
