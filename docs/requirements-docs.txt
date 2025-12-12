@@ -1,0 +1,7 @@
+# Documentation build dependencies for ReadTheDocs
+
+sphinx==7.3.0
+sphinx-rtd-theme==2.0.0
+sphinx-autodoc-typehints==1.23.4
+sphinx-copybutton==0.5.2
+myst-parser==1.0.0
