@@ -4,7 +4,7 @@
 [![Python versions](https://img.shields.io/pypi/pyversions/wifilab.svg)](https://pypi.org/project/wifilab/)
 [![License](https://img.shields.io/pypi/l/wifilab.svg)](https://github.com/ZahidServers/WiFi-Lab-Controller/blob/main/LICENSE)
 [![Tests](https://github.com/ZahidServers/WiFi-Lab-Controller/actions/workflows/python-package.yml/badge.svg)](https://github.com/ZahidServers/WiFi-Lab-Controller/actions)
-[![Documentation Status](https://readthedocs.org/projects/wifilab/badge/?version=latest)](https://wifilab.readthedocs.io/en/latest/)
+[![Documentation Status](https://readthedocs.org/projects/wifi-lab-controller/badge/?version=latest)](https://wifi-lab-controller.readthedocs.io/en/latest/)
 
 ---
 
