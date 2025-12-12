@@ -4,7 +4,7 @@ WiFi Lab Controller
 A graphical toolkit for controlled Wi-Fi testing, analysis, fake AP simulation,
 DNS redirection, network scans, and educational cybersecurity demonstrations.
 
-.. image:: https://raw.githubusercontent.com/ZahidServers/WiFi-Lab-Controller/main/screenshot1.png
+.. image:: https://raw.githubusercontent.com/ZahidServers/WiFi-Lab-Controller/refs/heads/main/Screenshot1.png
    :alt: WiFi Lab Controller Screenshot
    :align: center
    :width: 600px
